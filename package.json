@@ -1,0 +1,14 @@
+{
+  "name": "blip-worker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BLIP, live in the fREgs pond",
+  "type": "module",
+  "main": "blip.js",
+  "scripts": { "start": "node blip.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "ws": "^8.18.0"
+  }
+}
